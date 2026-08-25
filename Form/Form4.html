@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+</head>
+<body>
+    <form style="text-align: center;">
+        <fieldset>
+            <legend style="text-align: left;"><h1>Personal Information</h1></legend>
+            <div style="text-align: center;">
+                <label>Sex : </label>
+                <input type="radio" name="sex" value="Male" id="M">
+                <label for="M">Male</label>
+                <input type="radio" name="sex" value="FeMale" id="F">
+                <label for="F">Female</label>
+
+                <br>
+                <br>
+
+                <label for="date">Birthday : </label>
+                <input type="date" name="Birth_Date" id="date">
+
+                <br>
+                <br>
+
+                <label>State : </label>
+                <select name="State">
+                    <option selected disabled>Select State</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Mp">Mp</option>
+                    <option value="Up">Up</option>
+                </select>
+
+                <br>
+                <br>
+
+                <label>Country : </label>
+                <select name="Country">
+                    <option selected disabled>Select Country</option>
+                    <option value="India">India</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Us">Us</option>
+                </select>
+
+                <br>
+                <br>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend  style="text-align: left;">
+                <h1>Site Registration</h1>
+            </legend>
+            <div style="text-align: center;">
+                <label for="name">UserName: </label>
+                <input type="text" id="name" name="UserName">
+                <br>
+                <br>
+
+                <label for="pass">Password: </label>
+                <input type="password" id="pass" name="Pass">
+                <br>
+                <br>
+
+                <label for="Cpass">Retype Password: </label>
+                <input type="password" id="Cpass" name="Cpass">
+                <br>
+                <br>
+
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="Email">
+                <br>
+                <br>
+
+                <label for="Cemail">Retype Email Address: </label>
+                <input type="email" id="Cemail" name="CEmail">
+                <br>
+                <br>
+            </div>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

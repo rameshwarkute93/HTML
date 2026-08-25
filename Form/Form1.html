@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form 1</title>
 </head>
-<body>
-    
+<body  style="text-align: center;">
+    <form action="">
+        <h1>Personal Details</h1>
+        <br>
+        <br>
+
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="Username">
+        <br>
+        <br>
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="pass">
+        <br>
+        <br>
+
+
+        <label for="email">E-Mail Id : </label>
+        <input type="email" id="email" name="mail">
+        <br>
+        <br>
+
+
+        <label >Gender : </label>
+        <input type="radio" id="gender" value="Male"  name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" value="Female" name="gender">
+        <label for="gender">Female</label>
+        <br>
+        <br>
+
+        <label for="cont">Contact# : </label>
+        <input type="tel" id="cont" name="mobileNo">
+        <br>
+        <br>
+
+        <h1>Educational Qualification</h1>
+
+        <label for="Degree">Degree : </label>
+        <select name="Degree" id="Degree">
+            <option selected disabled>Select Group</option>
+            <option value="BE">BE</option>
+            <option value="BTech">BTech</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="Engg">Engineering : </label>
+        <select name="Engineering" id="Engg">
+            <option selected disabled>Select Group</option>
+            <option value="BE">BE</option>
+            <option value="Cs">Cs</option>
+            <option value="It">It</option>
+            <option value="Entc">Entc</option>
+            <option value="Mech">Mech</option>
+            <option value="Civil">Civil</option>
+            <option value="EE">EE</option>
+        </select>
+        <br>
+        <br>
+        <label for="Hobb">Hobbies : </label>
+        <input type="checkbox" id="chess" name="Hobbies" value="Playing Chess">
+        <label for="chess">Playing Chess</label>
+        <input type="checkbox" id="Books" name="Hobbies" value="Playing Books">
+        <label for="chess">Playing Books</label>
+
+        <br>
+        <br>
+        <h1>Address</h1>
+
+        <textarea name="Address" id="" cols="20" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="file">Attch Resume : </label>
+        <input type="file" name="File" id="file">
+
+        <br>
+        <br>
+
+        <input type="submit">
+
+    </form>
 </body>
 </html>
